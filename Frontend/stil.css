@@ -1,0 +1,734 @@
+body{
+    display: flex;
+    flex-direction: column;  
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(32, 34, 44) 0%, rgb(7, 12, 17) 81.3% );
+    background-color:rgb(182, 177, 177);
+    
+}
+.prozor1{
+    display: flex;
+    flex-direction: column;
+}
+.prozor2{
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(219, 216, 216);
+    width: 100%;
+   
+    
+}
+.prozor3{
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    min-width: 150px;
+    
+    
+
+}
+.prozor4{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
+   
+    
+        
+
+}
+.pp{
+    display: flex;
+    border: 2px solid greenyellow;
+   width: 20%;
+   height: 400px;
+  
+}
+.prozor5{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
+    
+        
+
+}
+
+.kont2,.kont1{
+    display: flex; 
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 98%;
+    padding: 2px;
+    margin-left: 2px;
+    margin-top: 5px;
+   
+}
+
+
+    
+
+
+.h1{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(32, 34, 44) 0%, rgb(7, 12, 17) 81.3% );
+    
+}
+.h2{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 3px solid rgb(182, 177, 177);
+    flex-wrap: wrap;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(32, 34, 44) 0%, rgb(7, 12, 17) 81.3% );
+    
+}
+.naslov{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 30%;
+    font-size: 65px;
+    color: rgb(34, 124, 7);
+    font-family:Shibuya 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+   margin-top: 15px;
+   margin-left: 10px;
+   
+
+}
+.listaKviz{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+    justify-content:center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 50%;
+}
+.mainBar{
+    display: flex;
+    border: 2px solid black;
+    flex-direction: row; 
+    flex-wrap: wrap;  
+    justify-content:center;
+    height:30px;
+    width:100%;
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+   
+}
+.dugmeKviz1{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 30px;
+    border:none;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    color: rgb(0, 0, 0);
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+    
+    
+}
+
+.forme{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height:10000px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(32, 34, 44) 0%, rgb(7, 12, 17) 81.3% );
+}
+.formPartija{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-bottom: 3px solid rgb(182, 177, 177);
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+   
+
+}
+.formTakmicar{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 40%;
+    margin-left: 30px;
+    border-radius: 8px 0px 0px 8px;
+    border: 2px solid black;
+    padding: 5px;
+    
+}
+
+.cp{
+    display: flex;
+
+}
+
+
+
+.naslovPartija{
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+    font-family:patrick Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(50, 192, 45);
+
+    margin-bottom: 10px;
+}
+.red{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.glavniRed{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 5px solid green;
+    margin-left: 50px;
+
+}
+.poljeKviz1,.poljeKviz2,.poljeKviz3,.poljeKviz4{
+    display: flex;
+    width: 100px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    margin-right:10px;
+    background: rgb(182, 177, 177);
+}
+.polje,.poljeIgra,.ime_polje,.zanimanje_polje,.prezime_polje{
+    display: flex;
+    width: 100px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    margin-right:10px;
+    background: rgb(182, 177, 177);
+}
+.poljeIgra{
+    display: flex;
+    width: 80px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    margin-right:10px;
+    background: rgb(182, 177, 177);
+}
+.poljeBroj,.poljeBroj1,.godine_polje,.poljeRedBroj,.poljeRedBroj2{
+    display: flex;
+    width: 60px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    margin-right:5px;
+    background: rgb(182, 177, 177);
+}
+
+.danBroj{
+    width: 40px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    margin-right:5px;
+    background: rgb(182, 177, 177);
+}
+.mesecPolje{
+
+    width: 90px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-left: 1px;
+    margin-bottom: 5px;
+    margin-right:1px;
+    background: rgb(182, 177, 177);
+}
+
+.selectPolje{
+    width: 80%;
+    height: 20px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+    margin-right:10px;
+    background: rgb(182, 177, 177);
+}
+.lab{
+    margin-top: 5px;
+    color: rgb(238, 238, 238);
+    font-size: 20px;
+    margin-left: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+
+}
+.takm_lab{
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    justify-content: center;
+
+}
+.takm_polje1,.takm_polje2,.poljeKviz{
+    width: 90%;
+    
+    font-size: 15px;
+    padding: 2px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    background: rgb(182, 177, 177);
+}
+.dugme{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left:15px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    text-align: center;
+    padding: 6px;
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    font-size: 17px;
+    color: aliceblue;
+}
+
+.dugme2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 6px;
+    text-align: center;
+    padding: 6px;
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    font-size: 17px;
+    color: aliceblue;
+}
+.dugmeTakmicar{
+    
+    display: flex;
+    border: 2px solid black;
+    height: 30px;
+    width: 200px;
+    margin-top: 5px;
+    text-align: center;
+    margin-right: 10px;
+    margin-left:80px;
+    padding: 5px;
+    border-radius: 6px;
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+}
+.kocka{
+    display: flex;
+    border: 2px solid black;
+   height: 420px;
+    width: 260px;
+    margin-bottom: 8px;
+    margin-left: 3px;
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+    border-radius: 6px;
+    flex-direction:column;
+    flex-wrap: wrap;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+
+.glavnaLinija{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    padding: 3px;
+    
+    
+}
+.par_broj{
+    border: 2px solid black;
+    background-color: rgb(204, 241, 37);
+    height: 22px;
+    width: 40px;
+    border-radius: 4px;
+    font-size: 18px; 
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    
+}
+.par_dat{
+    border: 2px solid black;
+    background-color: rgb(204, 241, 37);
+    height: 22px;
+    width: 120px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 15px;
+    font-style: bold;
+    padding: 2px;
+    margin-right: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    
+   
+    
+}
+.partijaLinija{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 300px;
+    border:2px solid black;
+    width: 100%;
+ 
+}
+.partijaTakm{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-between;
+    margin-top: 5px;
+    
+   
+}
+.par_tak1{
+    border: 2px solid black;
+    background-color: rgb(204, 241, 37);
+    height: 22px;
+    width: 47%;
+    border-radius: 4px;
+    font-size: 13px;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    margin-top: 5px;
+    padding-top: 5px;
+   
+}
+.par_tak1Pob{
+    border: 2px solid black;
+    background-color: rgb(179, 185, 153);
+    height: 23px;
+    width: 50%;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    
+}
+
+
+
+.partijaIgrice{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 5px;
+   
+    height: 60%;
+}
+.igraPolje{
+
+    border: 2px solid black;
+    width: 10px;
+    height: 10px;
+    background-color: tomato;
+}
+.igricaNaziv{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    padding-top: 5px;
+    
+   
+}
+.igricaDeo{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    
+    justify-content: space-between;
+    padding: 5px;
+    border: 2px solid black;
+    margin-top: 5px;
+    
+}
+.poeniTakm1,.poeniTakm2{
+    border: 2px solid black;
+    background-color: white;
+    height: 22px;
+    width: 40px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-left: 6px;
+    padding: 2px;
+}
+.poeniTakm12,.poeniTakm22{
+    border: 2px solid black;
+    background-color: rgb(204, 241, 37);
+    height: 22px;
+    width: 40px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-left: 6px;
+    padding: 2px;
+}
+.ukupnoLinija{
+   
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 96%;
+    height: 40px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 2px;
+    background-color: rgb(218, 233, 7);
+    
+    
+}
+.ukupnoTakm1,.ukupnoTakm2{
+    border: 2px solid black;
+    background-color: rgb(255, 218, 7);
+    height: 22px;
+    width: 40px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-left: 6px;
+    padding: 2px;
+    padding-bottom: 4px;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.poljeUpisa{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25px;
+    margin-top: 5px;
+
+
+}
+.button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    color: rgb(30, 124, 7);
+    padding-bottom: 5px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(32, 34, 44) 0%, rgb(7, 12, 17) 81.3% );
+
+  
+
+}
+.b1,.b2,.b3,.b4,.b5,.b6{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px 5px 0px 0px;
+    border-left: 5px solid rgb(182, 177, 177);
+    border-right: 5px solid rgb(182, 177, 177);
+    border-top: 5px solid rgb(182, 177, 177);
+    text-align: center;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    color: rgb(50, 192, 45);
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(32, 34, 44) 0%, rgb(7, 12, 17) 81.3% );
+    margin-left: 8px;
+}
+.button21,.button20{
+    display: flex;
+    justify-content: center;
+    width: 18%;
+    height: 35px;
+    border-radius: 5px;
+    border: 5px solid rgb(12, 11, 11);
+    text-align: center;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    color: rgb(248, 248, 248);
+    margin-left: 8px;
+    background-color:rgb(0, 0, 0);
+    
+}
+.Element{
+    display: flex;
+
+}
+
+   
+
+td,tr,th{
+
+    border: 2px solid black;
+    height: 60px;
+    width: 160px;
+    text-align: center;
+    background-color:rgb(182, 177, 177);
+    border-style:inherit;
+     font-size: 25px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+
+
+}
+th{
+    background-color: rgb(50, 192, 45);
+}
+.cp1{
+    padding-top: 50px;
+   padding-left: 70px;
+   
+}
+.dugObrisi{
+    width: 100px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    font-size: 18px;
+
+
+}
+
+
+.kvizProstor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+   
+ 
+
+}
+.kvizNaslov{
+    display: flex;
+    height: 50px;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    
+}
+.mainList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 3px;
+    
+    height: 40px;
+}
+.glavniProstor12{
+    display: flex;   
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin-right: 5px;
+    margin-top: 3px;
+   
+
+}
+.glavniProzor{
+
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: 100%;
+    margin-right: 5px;
+    margin-top: 3px;
+    
+
+}
+
+
+
+.dodIgr{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+   
+}
+.takPoen{
+    display: flex;
+    border: 2px solid black;
+    background-color: white;
+    height: 22px;
+    width: 30px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-left: 6px;
+    padding: 2px;
+
+}
+.but{
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 6px;
+    text-align: center;
+    padding: 6px;
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    font-size: 12px;
+    color: aliceblue;
+}
+.selectPolje2{
+    width: 40%;
+    height: 30px;
+    border: 2px solid black;
+   
+    background: rgb(182, 177, 177);
+}
